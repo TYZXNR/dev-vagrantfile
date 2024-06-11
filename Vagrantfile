@@ -64,6 +64,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |v|
     v.memory = 5000
     v.cpus = 3
+  end  
   # end
   #
   # View the documentation for the provider you are using for more
